@@ -13,6 +13,11 @@
 		94F2B20F25D92A510001F0CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F2B20D25D92A510001F0CD /* Main.storyboard */; };
 		94F2B21125D92A530001F0CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F2B21025D92A530001F0CD /* Assets.xcassets */; };
 		94F2B21425D92A530001F0CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F2B21225D92A530001F0CD /* LaunchScreen.storyboard */; };
+		94F2B21D25D92F420001F0CD /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2B21C25D92F420001F0CD /* CalcViewController.swift */; };
+		94F2B22025D92FEA0001F0CD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2B21F25D92FEA0001F0CD /* ResultViewController.swift */; };
+		94F4AF8125DA0151002C35B1 /* maru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AF8025DA0151002C35B1 /* maru.mp3 */; };
+		94F4AF8825DA0473002C35B1 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AF8725DA0473002C35B1 /* BGM.mp3 */; };
+		94F4AF8D25DA0585002C35B1 /* batu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AF8C25DA0585002C35B1 /* batu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		94F2B21025D92A530001F0CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F2B21325D92A530001F0CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F2B21525D92A530001F0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F2B21C25D92F420001F0CD /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		94F2B21F25D92FEA0001F0CD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		94F4AF8025DA0151002C35B1 /* maru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maru.mp3; sourceTree = "<group>"; };
+		94F4AF8725DA0473002C35B1 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		94F4AF8C25DA0585002C35B1 /* batu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				94F2B20725D92A510001F0CD /* AppDelegate.swift */,
 				94F2B20925D92A510001F0CD /* SceneDelegate.swift */,
 				94F2B20B25D92A510001F0CD /* ViewController.swift */,
+				94F2B21C25D92F420001F0CD /* CalcViewController.swift */,
+				94F2B21F25D92FEA0001F0CD /* ResultViewController.swift */,
+				94F4AF8025DA0151002C35B1 /* maru.mp3 */,
+				94F4AF8C25DA0585002C35B1 /* batu.mp3 */,
+				94F4AF8725DA0473002C35B1 /* BGM.mp3 */,
 				94F2B20D25D92A510001F0CD /* Main.storyboard */,
 				94F2B21025D92A530001F0CD /* Assets.xcassets */,
 				94F2B21225D92A530001F0CD /* LaunchScreen.storyboard */,
@@ -124,7 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F4AF8125DA0151002C35B1 /* maru.mp3 in Resources */,
 				94F2B21425D92A530001F0CD /* LaunchScreen.storyboard in Resources */,
+				94F4AF8D25DA0585002C35B1 /* batu.mp3 in Resources */,
+				94F4AF8825DA0473002C35B1 /* BGM.mp3 in Resources */,
 				94F2B21125D92A530001F0CD /* Assets.xcassets in Resources */,
 				94F2B20F25D92A510001F0CD /* Main.storyboard in Resources */,
 			);
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F2B22025D92FEA0001F0CD /* ResultViewController.swift in Sources */,
 				94F2B20C25D92A510001F0CD /* ViewController.swift in Sources */,
+				94F2B21D25D92F420001F0CD /* CalcViewController.swift in Sources */,
 				94F2B20825D92A510001F0CD /* AppDelegate.swift in Sources */,
 				94F2B20A25D92A510001F0CD /* SceneDelegate.swift in Sources */,
 			);
